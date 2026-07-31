@@ -4,6 +4,8 @@
 **Date:** 2026-07-31  
 **Status:** Proof of Concept (Testing Against QNAP Devices)
 
+Full PoC repo is located ![Proof Of Concept Code](https://github.com/OBLIVION-EDGE-VR-LLC/ChainHangLow)
+
 ---
 
 ## LEGAL DISCLAIMER
