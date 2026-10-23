@@ -14,6 +14,11 @@ key-management system, the **Riddler Chat** post-quantum messenger, the
 to their command-and-control infrastructure. Each entry is dated in its
 filename; the map below groups them by theme instead.
 
+> 🎃 **Latest — [Trick or Threat: Black October and the Haunted Patch Queue](./SpookySeason/10-22-2026-Trick_or_Threat_Black_October.md)** (2026-10-22)
+> A deep dive into the 30 days from 22 Sep to 22 Oct 2026: ShinyHunters' FBI/PeopleSoft campaign, the PHP2Shell runtime RCEs,
+> and the Citrix NetScaler, BeyondTrust, and FortiMail zero-days. Includes mitigations, fixes, and detection for each,
+> plus a hardening guide (nginx, IP limiting, DoS verification, data at rest and in transit) using the Fortress of Solitude as the worked example.
+
 ---
 
 ## Table of Contents
@@ -56,6 +61,7 @@ Following a single malicious file all the way to its C2 infrastructure.
 | 2025-10-15 | [Tron Campaign (IMG_0118.JPG) — Ethical Disclosure & IR Report](./Tron_Campaign_Analysis_Report.md) |
 | 2025-10-25 | [A Digital Symphony](./10-25-2025_A_Digital_Symphony.md) |
 | 2025-10-28 | [Trigger Happy: Hidden Activation Paths in a Feature Rollout CSV](./10-28-2025-TriggerHappy.md) |
+| 2026-10-22 | [🎃 Trick or Threat: Black October and the Haunted Patch Queue](./SpookySeason/10-22-2026-Trick_or_Threat_Black_October.md) — ShinyHunters, PHP2Shell & the month's top zero-days |
 
 ---
 
@@ -123,6 +129,7 @@ Attribution, nation-state tradecraft, and the actors behind the campaigns.
 | Date | Post |
 |------|------|
 | 2025-05-11 | [Hua-Wei What? A Brief Look into One Chinese APT](./05-11-2025_Hua-Wei_What:A%20brief%20analysis%20on%20a%20%20Chineese%20APT%20group.md) |
+| 2026-10-22 | [Trick or Threat: Black October](./SpookySeason/10-22-2026-Trick_or_Threat_Black_October.md) — UNC6240/ShinyHunters, ARMORY CASTLE (UNC5221) |
 
 ---
 
@@ -155,6 +162,7 @@ Vector clocks, happened-before ordering, and lattice-linear crash detection.
 - `.md` files are the blog posts; matching `.pdf` files are rendered versions where available.
 - `.puml / .png` pairs are PlantUML diagram sources and their exports.
 - Analysis artifacts (PCAPs, carved blobs, extraction scripts, sandbox reports) live alongside the posts and in folders such as `Email_Analysis_JPEG/`, `CVE_2025_43300_analysis/`, and `carved_analysis/`.
+- Seasonal and themed series get their own folder with their artwork, e.g. `SpookySeason/` (post + `HappyHalloween.png`).
 
 ---
 
